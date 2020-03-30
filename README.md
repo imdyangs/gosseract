@@ -32,9 +32,9 @@ func main() {
 }
 ```
 
-# Install
+# Set up
 
-1. [tesseract-ocr](https://github.com/tesseract-ocr/tesseract/wiki), including library and headers
+1. Install [tesseract-ocr](https://github.com/tesseract-ocr/tesseract/wiki), including library and headers
 2. `go get -t github.com/otiai10/gosseract`
 
 Check [Dockerfile](https://github.com/otiai10/gosseract/blob/master/Dockerfile) for more detail of installation, or you can just try by `docker run -it --rm otiai10/gosseract`.
